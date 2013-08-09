@@ -1,0 +1,37 @@
+body {
+	width: 100%;
+	font-family: 'Combo', cursive;
+	text-align: center;
+	background: #0000ff;
+}
+
+header {	
+	width: 75%;
+    margin: 0 auto;
+	padding: 20px;
+    background: #fff;
+    border: 5px solid #000;
+    border-radius: 10px;
+}
+
+section {
+	width: 75%;
+    margin: 0 auto;
+	padding: 20px;
+    background: #fff;
+    border: 5px solid #000;
+    border-radius: 10px;
+}
+    
+ul	{
+    list-style-type: none;
+}
+
+ul li {
+	display: inline;
+}
+
+h1	{
+	text-shadow: 5px 5px 5px #008b8b;
+}
+
