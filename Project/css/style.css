@@ -18,6 +18,7 @@ body {
 
 header {
 	background-image: url(../img/wooden.jpg);
+	border: thin solid #000;
 }
 
 footer {
@@ -32,6 +33,10 @@ nav li {
 	display: inline-block;
 }
 
+ h1
+{
+text-shadow: 5px 5px 5px #0000FF;
+} 
 .container {
 	background-color: #fffff0;
 	border:thick groove #000;
