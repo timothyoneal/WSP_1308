@@ -37,8 +37,12 @@ img {
 	clear: both;
 }
 /**site navigation**/
+nav {
+	width: 100%;
 
+}
 nav li {
+	width= 16.666666667%;
 	display: inline-block
 }
 
@@ -49,7 +53,6 @@ nav {
 nav a:link {
 	font-weight: bold;
 	color: #0066CC;
-	width: 120px;
 	text-align: center;
 	padding: 5px;
 	text-decoration: none;
@@ -65,7 +68,6 @@ nav a:visited {
 }  
 
 nav a:hover {
-	font-weight: bold;
 	color: #0066CC;
 	width: 120px;
 	text-align: center;
@@ -105,14 +107,17 @@ p{
 .active {
 	background: #0066cc;
 	color: #fffff0;
-	text-transform: uppercase;
 	text-decoration: underline;
 }
+
+.banner { position: relative; overflow: auto; }
+    .banner li { list-style: none; }
+        .banner ul li { float: left; }
 /* =============================================================================
    Page Styles
    ========================================================================== */
 
-////* =============================================================================
+/* =============================================================================
    Media Queries
    ========================================================================== */
 
@@ -123,10 +128,25 @@ p{
 @media only screen and (max-width: 767px) {}
 
 /* Mobile Landscape Size to Tablet Portrait */
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	img{
+		margin-left: 0;
+		float: none;
+	}
+}
 
 /* Mobile Portrait Size to Mobile Landscape Size */
-@media only screen and (max-width: 479px) {}
+@media only screen and (max-width: 479px) {
+	nav li {
+		display: block;
+	}
+
+	img{
+		margin-left: 0;
+		float: none;
+	}
+}
 
 
 /* =============================================================================

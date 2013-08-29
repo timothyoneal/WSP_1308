@@ -19,10 +19,6 @@
 	<link rel="stylesheet" href="css/style.css">
 
 	<script src="js/modernizr-2.6.2.min.js"></script>
-    
-    <style type="text/css">
-    
-    </style>
 	
 </head>
 
@@ -36,7 +32,7 @@
         
   </header>
 
-	<nav class="grid_12">
+	<nav>
 	    <ul>
       		<li><a href="index.html">Home</a></li>
       		<li><a href="about_us.html">About Us</a></li>
@@ -50,10 +46,11 @@
   <article class="grid_8 alpha">
 		
 	<h2>Game Pictures</h2>
-	
-	<ul><!--This will be a slideshow or gallery-->
+
+	<div class="banner">
+    <ul><!--This will be a slideshow or gallery-->
 		  <li><img src="img/omw_gallery1.jpg" alt="Magic Wheels players with UCF students"></li>
-    	<!--<li><img src="img/omw_gallery2.jpg" alt="Magic wheels player Jimmy Petroski"></li>
+    	<li><img src="img/omw_gallery2.jpg" alt="Magic wheels player Jimmy Petroski"></li>
     	<li><img src="img/omw_gallery3.jpg" alt="UCF students participating in Magic Wheels at adaptive recreation expo."></li>
     	<li><img src="img/omw_gallery4.jpg" alt="UCF studet ready to play at expo."></li>
     	<li><img src="img/omw_gallery5.jpg" alt="over head picture of Magic Wheels player"></li>
@@ -66,10 +63,10 @@
     	<li><img src="img/omw_gallery12.jpg" alt="Getting ready at the Amway arena"></li>
     	<li><img src="img/omw_gallery13.jpg" alt="Magic Wheels gallery image 13"></li>
     	<li><img src="img/omw_gallery14.jpg" alt="Magic Wheels gallery image 14"></li>
-		<li><img src="img/omw_gallery15.jpg" alt="Magic Wheels gallery image 15"></li>
-		<li><img src="img/omw_gallery16.jpg" alt="Magic Wheels gallery image 16"></li>-->
+		  <li><img src="img/omw_gallery15.jpg" alt="Magic Wheels gallery image 15"></li>
+		  <li><img src="img/omw_gallery16.jpg" alt="Magic Wheels gallery image 16"></li>
   	</ul>
-
+  </div>
   	<h2>Practice Schedule</h2>
 
   	<p>Practice for the Orlando Magic Wheels is held every Tuesday night at Silver Star Community Park from 6pm-8pm.</p>
@@ -150,5 +147,10 @@
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script src="js/scripts.js"></script>
+<script src="http://unslider.com/unslider.min.js"></script>
+  <script type="text/javascript">$(function() {
+    $('.banner').unslider();
+});</script>
+
 </body>
 </html>
