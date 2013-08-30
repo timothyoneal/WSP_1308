@@ -28,9 +28,16 @@ body {
 header{
 	height: 200px;
 }
+
 aside {
 	font-size: .875em; /**14pt/16pt**/
+	opacity: .8
 } 
+
+footer {
+	font-size: .625em;
+	opacity: .8;
+}
 
 img {
 	margin-left: 15px;
@@ -39,19 +46,16 @@ img {
 	float: left;
 	clear: both;
 }
+
 /**site navigation**/
 nav {
 	width: 100%;
-	float: right;
-	clear: both;
-}
-nav li {
-	width= 16.666666667%;
-	display: inline-block
+	margin-top: 20px;
+	font-size: 1.25em;
 }
 
-nav {
-	font-size: 1.5em;
+nav li {
+	display: inline-block
 }
 
 nav a:link {
@@ -135,14 +139,6 @@ p{
 /* Mobile Landscape Size to Tablet Portrait */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
-	img{
-		margin-left: 0;
-		float: none;
-	}
-}
-
-/* Mobile Portrait Size to Mobile Landscape Size */
-@media only screen and (max-width: 479px) {
 	nav li {
 		display: block;
 	}
@@ -151,6 +147,11 @@ p{
 		margin-left: 0;
 		float: none;
 	}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size */
+@media only screen and (max-width: 479px) {
+	
 }
 
 
