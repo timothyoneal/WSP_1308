@@ -119,7 +119,7 @@ p{
 	text-decoration: underline;
 }
 
-.banner { position: relative; overflow: auto; }
+.banner { width: 0.869905956112853%; position: relative; overflow: auto; }
     .banner li { list-style: none; }
         .banner ul li { float: left; }
 /* =============================================================================
@@ -134,14 +134,14 @@ p{
 @media only screen and (min-width: 768px) and (max-width: 995px) {}
 
 /* All Mobile Sizes */
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+	.banner {
+		display: none;
+	}
+}
 
 /* Mobile Landscape Size to Tablet Portrait */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-
-	nav li {
-		display: block;
-	}
 
 	img{
 		margin-left: 0;
@@ -151,7 +151,12 @@ p{
 
 /* Mobile Portrait Size to Mobile Landscape Size */
 @media only screen and (max-width: 479px) {
+	nav li { 
+		display: block;
+	}
 	
+
+
 }
 
 
